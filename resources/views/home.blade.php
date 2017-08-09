@@ -8,7 +8,8 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged as <strong>USER</strong>
+                  @Component('components.who')
+                  @endcomponent
                 </div>
             </div>
         </div>

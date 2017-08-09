@@ -11,8 +11,8 @@
           @if (Auth::check())
               <a href="{{ url('/home') }}">Home</a>
           @else
-            <li><a href="{{ url('/login') }}"><i class="fa fa-sign-in"></i>Login</a></li>
-            <li><a href="{{ url('/register') }}"><i class="fa fa-user-register"></i>Register</a></li>
+            <li><a href="{{ url('/welcome') }}"><i class="fa fa-sign-in"></i>Login / Register</a></li>
+            <!-- <li><a href="{{ url('/register') }}"><i class="fa fa-user-register"></i>Register</a></li> -->
           @endif
             <li><i class="fa fa-phone"></i>(233) - 555 - 188889</li>
             <li><i class="fa fa-envelope"></i><a class="__cf_email__" href="../../cdn-cgi/l/email-protection/index.html" data-cfemail="5e373038311e1f2c372d2a312a323b703b3a2b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></li>

@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="css/color.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/transition.css">
+<link rel="stylesheet" href="css/app.css">
 
 <!-- FontsOnline -->
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>

@@ -8,7 +8,8 @@
                 <div class="panel-heading">Admin Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in as <strong>ADMIN</strong>
+                    @Component('components.who')
+                    @endcomponent
                 </div>
             </div>
         </div>
