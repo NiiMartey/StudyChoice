@@ -30,7 +30,7 @@ class Admin extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function SendsPasswordResetNotification($token)
+    public function sendPasswordResetNotification($token)
     {
       $this->notify(new AdminResetPasswordNotification($token));
     }
