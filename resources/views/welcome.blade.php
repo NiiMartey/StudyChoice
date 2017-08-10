@@ -35,10 +35,11 @@
                 position: relative;
             }
 
-            .top-right {
+            .top-left {
                 position: absolute;
-                right: 10px;
+                left: 10px;
                 top: 18px;
+
             }
 
             .content {
@@ -66,24 +67,42 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
+          <div class="top-left links">
+
+                  <a href="{{ url('/') }}"><i class="fa fa-sign-in"></i>Return to Site</a>
+
+          </div>
+
 
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                  <div class="panel">
-                    @component('components.who')
-                    @endcomponent
+                  <div class="content">
+                      <p>Welcome!</p>
+                      <div class="title m-b-md">
+                          Study Choice
+                      </div>
+                        <h1>Student Portal</h1>
+                      <p>Please </p>
+                      @if (Route::has('login'))
+                          <div class="link">
+                              @if (Auth::check())
+                                  <a href="{{ url('/home') }}">Home</a>
+                              @else
+                                  <a href="{{ url('/login') }}">Login</a>
+                                  <span>/</span>
+                                  <a href="{{ url('/register') }}">Register</a>
+                              @endif
+                          </div>
+                      @endif
+                      <hr>
+                      <div class="panel">
+                        @component('components.who')
+                        @endcomponent
+                      </div>
                   </div>
+
+
                 </div>
 
               </div>

@@ -14,6 +14,14 @@
           </ul> -->
         </li>
         <li>
+        <a href="/about">About</a>
+          <ul>
+            <li><a href="blog-masonary.html">blog masonary</a></li>
+            <li><a href="blog-listing.html">blog listing</a></li>
+            <li><a href="blog-detail.html">blog detail</a></li>
+          </ul>
+        </li>
+        <li>
         <a href="/blog/">blog</a>
           <ul>
             <li><a href="blog-masonary.html">blog masonary</a></li>
