@@ -23,8 +23,10 @@
 
 <!-- FontsOnline -->
 {{Html::style('https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic')}}
-{{Html::style('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic')}}
-{{Html::style('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic')}}
+<!-- {{Html::style('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic')}} -->
+{{Html::style('https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic,500,500italic,700,700italic')}}
+{{Html::style('https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic')}}
+<!-- https://fonts.googleapis.com/css?family=Muli:400,300 -->
 
 <!-- JavaScripts -->
 {{Html::script('js/vendor/modernizr.js') }}

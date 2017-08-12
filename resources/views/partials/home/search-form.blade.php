@@ -1,24 +1,18 @@
 <div class="container">
   <div class="search-course-form h-white text-center">
-    <h3>Search course</h3>
+    <h3>Search Scholarship</h3>
     <ul>
       <li>
         <div class="form-group">
           <select class="form-control">
             <option>Discipline</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-          </select>
-        </div>
-      </li>
-      <li>
-        <div class="form-group">
-          <select class="form-control">
-            <option>Course length</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
+            <option>Arts</option>
+            <option>Humanities</option>
+            <option>Social Sciences</option>
+            <option>Natural Sciences</option>
+            <option>Formal Sciences</option>
+            <option>Professions & Applied Sciences</option>
+
           </select>
         </div>
       </li>
@@ -26,19 +20,16 @@
         <div class="form-group">
           <select class="form-control">
             <option>Study level</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
+            <option>Barchelors</option>
+            <option>Masters</option>
+            <option>Doctorate/PhD</option>
           </select>
         </div>
       </li>
       <li>
         <div class="form-group">
           <select class="form-control">
-            <option>Campus location</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
+            @include('partials.countries')
           </select>
         </div>
       </li>
