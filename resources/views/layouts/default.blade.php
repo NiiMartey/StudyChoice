@@ -8,26 +8,26 @@
 <title>Study Choice</title>
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+<link rel="shortcut icon" href={{"images/favicon.png"}} type="image/x-icon">
 <!-- StyleSheets -->
-<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/flaticon.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/color.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/transition.css">
-<!-- <link rel="stylesheet" href="css/app.css"> -->
+{{Html::style('css/bootstrap/bootstrap.min.css')}}
+{{Html::style('css/font-awesome.min.css')}}
+{{Html::style('css/animate.css')}}
+{{Html::style('css/main.css')}}
+{{Html::style('css/flaticon.css')}}
+{{Html::style('css/style.css')}}
+{{Html::style('css/color.css')}}
+{{Html::style('css/responsive.css')}}
+{{Html::style('css/transition.css')}}
 
 <!-- FontsOnline -->
-<link href='https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+{{Html::style('https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic')}}
+{{Html::style('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic')}}
+{{Html::style('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic')}}
 
 <!-- JavaScripts -->
-<script src="js/vendor/modernizr.js"></script>
+{{Html::script('js/vendor/modernizr.js') }}
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -51,22 +51,23 @@
 	@include('partials.footer')
 
 <!-- Java Script -->
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="js/gmap3.min.js"></script>
-<script src="js/datepicker.js"></script>
-<script src="js/contact-form.js"></script>
-<script src="js/parallax.js"></script>
-<script src="js/countdown.js"></script>
-<script src="js/countTo.js"></script>
-<script src="js/owl-carousel.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/sticky.js"></script>
-<script src="js/prettyPhoto.js"></script>
-<script src="js/isotope.pkgd.js"></script>
-<script src="js/wow-min.js"></script>
-<script src="js/main.js"></script>
+{{Html::script('js/vendor/jquery.js') }}
+{{Html::script('js/vendor/bootstrap.min.js') }}
+{{Html::script('http://maps.google.com/maps/api/js?sensor=false') }}
+{{Html::script('js/gmap3.min.js') }}
+{{Html::script('js/datepicker.js') }}
+{{Html::script('js/contact-form.js') }}
+{{Html::script('js/parallax.js') }}
+{{Html::script('js/countdown.js') }}
+{{Html::script('js/countTo.js') }}
+{{Html::script('js/owl-carousel.js') }}
+{{Html::script('js/appear.js') }}
+{{Html::script('js/sticky.js') }}
+{{Html::script('js/prettyPhoto.js') }}
+{{Html::script('js/isotope.pkgd.js') }}
+{{Html::script('js/wow-min.js') }}
+{{Html::script('js/main.js') }}
+
 </body>
 </html>
 
