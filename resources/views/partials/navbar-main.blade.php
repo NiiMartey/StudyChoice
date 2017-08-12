@@ -5,61 +5,78 @@
     <div class="nav-list style-1">
       <ul class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <li>
-          <a href="/">Home</a>
-          <!-- <ul>
-            <li><a href="index.html">Home 1</a></li>
-            <li><a href="index-2.html">Home 2</a></li>
-            <li><a href="index-3.html">Home 3</a></li>
-            <li><a href="index-4.html">Home 4</a></li>
-          </ul> -->
-        </li>
-        <li>
-        <a href="/about">About</a>
+          <a href="/about">About</a>
           <ul>
-            <li><a href="blog-masonary.html">blog masonary</a></li>
-            <li><a href="blog-listing.html">blog listing</a></li>
-            <li><a href="blog-detail.html">blog detail</a></li>
+            <li><a href="/about">About StudyChoice</a></li>
+            <li><a href="{{ url('about/story')}}">Our Story</a></li>
+            <li><a href="{{ url('about/team')}}">Team</a></li>
+            <li><a href="{{ url('about/partner')}}">Our Partners</a></li>
           </ul>
         </li>
         <li>
-        <a href="/blog/">blog</a>
+        <a href="/student">Student</a> <!-- go to StudyChoice Portal -->
           <ul>
-            <li><a href="blog-masonary.html">blog masonary</a></li>
-            <li><a href="blog-listing.html">blog listing</a></li>
-            <li><a href="blog-detail.html">blog detail</a></li>
+            <li><a href="#">Join SC Portal</a></li>
+            <li><a href="#">Student Meetup</a></li>
+            <li>
+              <a href="#">Study Abroad</a>
+              <ul>
+                <li><a href="/about">Ultimate SC Guide</a></li>
+                <li><a href="#">Scholarships</a></li> <!-- linked to scholarship -->
+                <li><a href="#">Our Students Everywhere</a></li>
+              </ul>
+            </li>
+            <li><a href="#">StudySmart</a></li> <!-- intelligence on studyportal: current career trends -->
           </ul>
         </li>
         <li>
-          <a href="/events/">events</a>
+        <a href="/scholarship">Scholarships</a>
           <ul>
-            <li><a href="event-masonary.html">event masonary</a></li>
-            <li><a href="event-with-sidebar.html">event with sidebar</a></li>
-            <li><a href="event-detail.html">event detail</a></li>
+            <li><a href="#">Apply</a></li>
+            <li><a href="#">Sponsorship</a></li>
+            <!-- <li><a href="#">Our Sponsors</a></li> -->
           </ul>
         </li>
         <li>
-          <a href="#">course</a>
+          <a href="/careers">Careers</a>
           <ul>
-            <li><a href="courese-gird.html">coureses gird</a></li>
-            <li><a href="courese-detail.html">coureses detail</a></li>
+            <li><a href="#">CareerChoice</a></li><!-- intelligence on studyportal: current career trends -->
+
+            <li>
+              <a href="#">Institutions</a>
+              <ul>
+                <li><a href="#">Consulting & Analytics</a></li>
+                <li><a href="#">Return on Investment(ROI)</a></li>
+                <!-- <li><a href="#">Institutions</a></li> -->
+              </ul>
+            </li>
+            <li><a href="#">Consulting</a></li>
           </ul>
         </li>
         <li>
+          <a href="/events">News & Events</a>
+          <ul>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+        <!-- <li>
           <a href="#">page</a>
           <ul>
             <li><a href="about.html">about</a></li>
             <li><a href="teacher-detail.html">teacher detail</a></li>
             <li><a href="gallery.html">gallerys</a></li>
           </ul>
-        </li>
-        <li><a href="/contact/">contact</a></li>
+        </li> -->
+        <li><a href="/contact">contact</a></li>
       </ul>
     </div>
     <!-- Nav List -->
 
     <!-- Logo -->
     <div class="logo">
-      <a class="position-center-y" href="index.html"><img src="images/logo-1.png" alt=""></a>
+      <a class="position-center-y" href="/"><img src="images/logo-1.png" alt="StudyChoice logo"></a>
     </div>
     <!-- Logo -->
 

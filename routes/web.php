@@ -13,13 +13,50 @@
 
 Route::get('/', 'PagesController@index');
 
-Route::get('/about', 'PagesController@about')->name('about');
-// Route::prefix('pages')->group(function(){
-//
-// });
+// Pages Route Configuration
+// About Study Choice Routes
+Route::prefix('about')->group(function(){
+  Route::get('/', 'PagesController@about')->name('about');
+  Route::get('/story', 'PagesController@aboutStory')->name('about.story');
+  Route::get('/team', 'PagesController@aboutTeam')->name('about.team');
+  Route::get('/partner', 'PagesController@aboutPartner')->name('about.partner');
+});
+
+// Student Menu Routes
+Route::prefix('student')->group(function(){
+  Route::get('/portal', 'PagesController@studentPortal')->name('student.portal');
+  Route::get('/fof', 'PagesController@studentFof')->name('student.fof');
+  Route::get('/study-abroad', 'PagesController@studyAbroad')->name('student.study-abroad');
+  Route::get('/study-smart', 'PagesController@studySmart')->name('student.study-smart');
+});
+
+// Career Choice Routes
+Route::prefix('career')->group(function(){
+  Route::get('/', 'PagesController@career')->name('career');
+  Route::get('/institution', 'PagesController@aboutTeam')->name('career.institution');
+  Route::get('/consulting', 'PagesController@aboutPartner')->name('career.consulting');
+});
+
+// Scholarship Routes
+  Route::get('/scholarship', 'PagesController@scholarship')->name('scholarship');
+
+// News Routes
+  Route::get('/news', 'PagesController@news')->name('news');
+
+// Events Routes
+  Route::get('/event', 'PagesController@event')->name('event');
+
+// Blog Routes
+  Route::get('/blog', 'PagesController@blog')->name('blog');
+
+// Contact Route
+Route::get('contact', 'PagesController@contact')->name('contact');
+
+// Sign Up to Student Portal
+Route::get('signup', 'PagesController@signUp')->name('singup');
 
 Route::get('/welcome', function () {
-    return view('welcome');
+    return view('student');
 });
 
 Auth::routes();
