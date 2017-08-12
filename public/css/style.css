@@ -26,9 +26,9 @@
  17.	Teachers Grid
  18.	Gallery
 */
-
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
 /****** Theme Reset Style ******/
-body{ background: #fff; font-size: 14px; color: #555; font-family: 'PT Serif', serif;}
+body{ background: #fff; font-size: 14px; color: #555; font-family: 'Raleway', serif;}
 body h1, body h2, body h3, body h4, body h5, body h6{ color: #484848; margin: 0 0 20px; font-family: 'Lato', sans-serif; text-transform: uppercase;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{ color: #484848;}
 
